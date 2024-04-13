@@ -1,11 +1,14 @@
-Funções de Datas
+# Manipulando Datas
 
-- SQL
- Treine online: https://onecompiler.com/mysql/3zte5xx3m
+## SQL vs Python usando Pandas
+
+### - SQL
+- Treine online os códigos abaixo: https://onecompiler.com/mysql/3zte5xx3m
   
--- Converter uma string em data é importante 
--- para facilitar calculos e uso de funções específicas
-SELECT DATE('2022-10-01') Data; -- Ano/Mês/Dia
+- `Converter uma string em data`: use de funções específicas
+  ```SQL
+  SELECT DATE('2022-10-01') Data; -- Ano/Mês/Dia
+  SELECT CAST('2022-10-01' as date) Data; -- Ano/Mês/Dia | SQL Server
 
 
 ---- Retorna data e Hora atual
