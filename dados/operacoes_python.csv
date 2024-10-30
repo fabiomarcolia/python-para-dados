@@ -1,0 +1,21 @@
+Id,Nome,Idade,Salario,Cidade,Departamento
+1,Ana,23.0,3500.0,São Paulo,Vendas
+2,Bruno,35.0,4200.0,Rio de Janeiro,RH
+3,Carlos,,3100.0,Curitiba,TI
+4,Daniela,40.0,,Brasília,TI
+5,Eduardo,28.0,2950.0,Belo Horizonte,Vendas
+6,Fernanda,32.0,5100.0,São Paulo,Financeiro
+7,Gustavo,45.0,4700.0,Rio de Janeiro,RH
+8,Helena,,3350.0,Curitiba,TI
+9,Igor,37.0,2850.0,Brasília,Financeiro
+10,Juliana,30.0,4100.0,Belo Horizonte,Vendas
+11,Karen,29.0,,São Paulo,TI
+12,Lucas,22.0,3650.0,Rio de Janeiro,RH
+13,Mariana,39.0,4600.0,Curitiba,Financeiro
+14,Nicolas,,3300.0,Brasília,Vendas
+15,Olivia,26.0,2990.0,Belo Horizonte,RH
+16,Paulo,41.0,4200.0,São Paulo,
+17,Quintino,33.0,,Rio de Janeiro,Financeiro
+18,Rafaela,,3800.0,Curitiba,RH
+19,Sofia,36.0,3950.0,Brasília,TI
+20,Tiago,27.0,4050.0,Belo Horizonte,Vendas
