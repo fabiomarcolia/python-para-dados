@@ -21,69 +21,73 @@
 
 ## 1. Jupyter
 
-![Jupyter Notebook](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/0-jupyter-notebook.png)
+[![Jupyter Notebook](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/0-jupyter-notebook.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/0-jupyter-notebook.pdf)
 
 ---
 
 ## 2. VSCode
 
-![VSCode Cheatsheet](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/1-vscode_cheatsheet.png)
+[![VSCode Cheatsheet](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/1-vscode_cheatsheet.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/1-vscode_cheatsheet.pdf)
 
 ---
 
 ## 3. Iniciante
 
-![Python para Iniciante](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/2-python-iniciante.png)
+[![Python para Iniciante](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/2-python-iniciante.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/2-python-iniciante.pdf)
 
 
 ---
 
 ## 4. Intermediário
 
-![Python Intermediário](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/4-python-intermediario.png)
+[![Python Intermediário](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/4-python-intermediario.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/4-python-intermediario.pdf)
 
 
 ---
 
 ## 5. Numpy
 
-![Numpy](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/5-python-numpy.png)
+[![Numpy](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/5-python-numpy.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/5-python-numpy.pdf)
 
 
 ---
 
 ## 6. Pandas_Básico
 
-![Pandas Básico](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/6-python-pandas-basico.png)
+[![Pandas Básico](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/6-python-pandas-basico.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/6-python-pandas-basico.pdf)
 
 
 ---
 
 ## 7. Pandas
 
-![Pandas](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/7-python-pandas.png)
+[![Pandas](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/7-python-pandas.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/7-python-pandas.pdf)
 
 
 ---
 
 ## 8. Importando_Dados
 
-![Importando Dados com Python](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/8-importando-dados-com-python.png)
+[![Importando Dados com Python](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/8-importando-dados-com-python.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/8-importando-dados-com-python.pdf)
 
 
 ---
 
 ## 9. ReGEX
 
-![ReGEX](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/9-python-regex.png)
+[![ReGEX](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/img/9-python-regex.png)](https://github.com/fabiomarcolia/python-para-dados/blob/main/cheatsheets/pdf/9-python-regex.pdf)
 
 
 ---
 
  
 
-## 🔗 Links
-[![Recursos](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![oi](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+## 🔗 Fale Comigo
+
+[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiomarcolia/)
+[![Mais Recursos](https://topmate.io/cdn-cgi/image/width=1080,quality=90/images/common/topmate-dark.svg)](https://topmate.io/fabiomarcolia)
+
+
+
 
 
