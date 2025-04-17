@@ -224,7 +224,7 @@ Feito com ❤️ para iniciantes em Python.
 
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
 
-[![Mais Recursos](https://topmate.io/cdn-cgi/image/width=188,quality=90/images/common/topmate-dark.svg)](https://topmate.io/fabiomarcolia)
+[![Mais Recursos](https://topmate.io/cdn-cgi/image/width=90,quality=90/images/common/topmate-dark.svg)](https://topmate.io/fabiomarcolia)
 
 
 
