@@ -222,7 +222,7 @@ Feito com ❤️ para iniciantes em Python.
 
 ## 🔗 Fale Comigo
 
-[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiomarcolia/)
+[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
 
 [![Mais Recursos](https://topmate.io/cdn-cgi/image/width=640,quality=90/images/common/topmate-light.svg)](https://topmate.io/fabiomarcolia)
 
