@@ -1,0 +1,10 @@
+meu_projeto/
+│
+├── data/                # Dados brutos e processados
+├── notebooks/           # Jupyter Notebooks
+├── src/                 # Scripts Python
+│   ├── data_cleaning.py
+│   ├── analysis.py
+│   └── visualization.py
+├── requirements.txt     # Dependências do projeto
+└── README.md            # Documentação do projeto
