@@ -81,7 +81,19 @@ Como as extensões funcionam:
 - Simplificam o trabalho:
 - Estão disponíveis no Marketplace:
 - Temas: Extensões que mudam o visual do VS Code, com diferentes cores, fontes e estilos. 
-- Extensões que adicionam recursos como visualização de conteúdo de portais (Power Apps), lembretes no código (Bookmarks) e muito mais. 
+- Extensões que adicionam recursos como visualização de conteúdo de portais (Power Apps), lembretes no código (Bookmarks) e muito mais.
+
+### Extensões Recomendadas
+  Acesse a aba de extensões no VSCode (Ctrl + Shift + X).
+  
+- Instale as extensões:
+1- Python (Microsoft): Suporte a Python, Jupyter e IntelliSense.
+2- Jupyter: Permite executar notebooks .ipynb no VSCode.
+3- Pylance: Melhor análise de código e autocomplete.
+4- GitLens: Facilita o trabalho com GitHub.
+5- Code Runner: Executa códigos diretamente no terminal.
+6- Prettier: Para formatar código.
+7- Material Icon Theme: Melhora os ícones de arquivos.
 
 
 ---
