@@ -86,19 +86,19 @@ Como as extensões funcionam:
 ### Extensões Recomendadas
   Acesse a aba de extensões no VSCode (Ctrl + Shift + X).
     
-- 1- Python (Microsoft): Suporte a Python, Jupyter e IntelliSense.
+- Python (Microsoft): Suporte a Python, Jupyter e IntelliSense.
   
-- 2- Jupyter: Permite executar notebooks .ipynb no VSCode.
+- Jupyter: Permite executar notebooks .ipynb no VSCode.
 
-- 3- Pylance: Melhor análise de código e autocomplete.
+- Pylance: Melhor análise de código e autocomplete.
 
-- 4- GitLens: Facilita o trabalho com GitHub.
+- GitLens: Facilita o trabalho com GitHub.
 
-- 5- Code Runner: Executa códigos diretamente no terminal.
+- Code Runner: Executa códigos diretamente no terminal.
 
-- 6- Prettier: Para formatar código.
+- Prettier: Para formatar código.
 
-- 7- Material Icon Theme: Melhora os ícones de arquivos.
+- Material Icon Theme: Melhora os ícones de arquivos.
 
 
 ---
