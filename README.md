@@ -88,11 +88,17 @@ Como as extensões funcionam:
   
 - Instale as extensões:
 1- Python (Microsoft): Suporte a Python, Jupyter e IntelliSense.
+  
 2- Jupyter: Permite executar notebooks .ipynb no VSCode.
+
 3- Pylance: Melhor análise de código e autocomplete.
+
 4- GitLens: Facilita o trabalho com GitHub.
+
 5- Code Runner: Executa códigos diretamente no terminal.
+
 6- Prettier: Para formatar código.
+
 7- Material Icon Theme: Melhora os ícones de arquivos.
 
 
