@@ -235,7 +235,7 @@ git push -u origin main
 
 ---
 
-Feito com ❤️ para iniciantes em Python.
+Feito com 🩵 para amantes do Python.
 
 ## 🔗 Fale Comigo
 
@@ -250,5 +250,5 @@ Feito com ❤️ para iniciantes em Python.
 
 ## Autor
 
-- [Fabio Marçolia](https://www.github.com/octokatherine)
+- [Fabio Marçolia](https://github.com/fabiomarcolia)
 
