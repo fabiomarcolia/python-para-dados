@@ -235,7 +235,7 @@ git push -u origin main
 
 ---
 
-Feito com ❤️ para  em Python.
+Feito com 🩵 para amantes do Python.
 
 ## 🔗 Fale Comigo
 
