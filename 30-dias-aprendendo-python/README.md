@@ -10,6 +10,14 @@ Aqui você encontrará scripts prontos para executar e praticar diretamente no s
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen?style=for-the-badge&logo=pandas" alt="Pandas" />
+  <img src="https://img.shields.io/badge/MongoDB-DataBase-success?style=for-the-badge&logo=mongodb" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/BigQuery-Google%20Cloud-blue?style=for-the-badge&logo=googlecloud" alt="BigQuery" />
+  <img src="https://img.shields.io/badge/MySQL-Database-informational?style=for-the-badge&logo=mysql" alt="MySQL" />
+</p>
+
 ---
 
 ## 📚 Índice
@@ -68,6 +76,7 @@ Use os seguintes passos para começar:
 - Instale o Python 3.11 ou superior
 - Instale o VSCode
 - Ative o ambiente virtual:
+- [Guia Completo de VSCode + Python](https://github.com/fabiomarcolia/python-para-dados)
 
 `python -m venv venv`  
 `venv\Scripts\activate` (Windows) ou `source venv/bin/activate` (Linux/Mac)
@@ -103,4 +112,14 @@ Este repositório foi criado para ajudar você a aprender **Python para Dados** 
 Aqui, a prioridade é: **escrever, testar, errar e aprender**.
 
 Compartilhe seu progresso e pratique todos os dias! 🚀
+
+## 🔗 Fale Comigo
+
+[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
+
+[![Mais Recursos](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/topmate.png)](https://topmate.io/fabiomarcolia)
+
+## Autor
+
+- [Fabio Marçolia](https://github.com/fabiomarcolia)
 
