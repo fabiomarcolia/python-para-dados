@@ -265,7 +265,7 @@ Abra o VSCode. Ao abri-lo, você verá a interface abaixo:
 
 
 Crie uma pasta chamada AprenderPython30dias na área de trabalho, assim poderá abrir e adicionar ela no VSCode:
-![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png.png)
+![1](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png.png)
 
 
 Agora você verá atalhos para criar arquivos e pastas dentro do diretório do projeto. Veja o exemplo abaixo:
