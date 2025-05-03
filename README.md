@@ -35,7 +35,31 @@ Python é uma linguagem altamente aceita na comunidade de ciência, análise, en
 
 Espero que isso seja suficiente para convencê-lo a começar a aprender Python. Python está dominando o mundo, agora com IA!
 
-Vamos começar🚀
+Básico da Linguagem
+Sintaxe:
+Um script Python pode ser escrito no shell interativo Python ou no editor de código. O arquivo terá a extensão .py.
+
+Indentação:
+Indentação é um espaço em branco em um texto. Algumas linguagens usam para aumentar a legibilidade, o Python usa indentação para criar blocos de código. Assim, um dos erros ao escrever código Python é não usar identação corretamente.
+
+Comentários:
+Os comentários tem uma função importante para melhorar a legibilidade e permitir que os desenvolvedores deixem informações no código. No Python, qualquer trecho que inicia com #, não é executado e é interpretado como um comentário.
+
+Exemplos de Comentários por linha
+# Este é o um comentário
+# Este é o segundo comentário
+
+Comentário de várias linhas
+
+Use aspas triplas entre a parte que é comentário, no inicio e fim:
+
+"""
+Aqui começa a parte comentada.
+Pode ser várias linhas a seguir.
+Depois é só terminar novamente com aspas triplas
+"""
+
+Vamos começar montrar o ambiente🚀
 
 ---
 
@@ -226,7 +250,22 @@ git push -u origin main
 
 ---
 
-## 10. Recursos Adicionais
+## 10. Começando a usar o VSCode
+
+Abra o VSCode. Ao abri-lo, você verá a interface abaixo:
+![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project1.png.png) 
+
+
+Crie uma pasta chamada AprenderPython30dias na área de trabalho, assim poderá abrir e adicionar ela no VSCode:
+![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png.png)
+
+
+Agora você verá atalhos para criar arquivos e pastas dentro do diretório do projeto. Veja o exemplo abaixo:
+![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project3.png.png)
+
+Pronto, você já poderá usar Python e criar projetos, o ambiente está preparado🚀
+
+## 11. Recursos Adicionais
 
 - [Documentação oficial do Python](https://docs.python.org/pt-br/3/)  
 - [Guia oficial do VSCode para Python](https://code.visualstudio.com/docs/python/python-tutorial)  
