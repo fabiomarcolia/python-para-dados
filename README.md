@@ -36,21 +36,24 @@ Python é uma linguagem altamente aceita na comunidade de ciência, análise, en
 Espero que isso seja suficiente para convencê-lo a começar a aprender Python. Python está dominando o mundo, agora com IA!
 
 
-Básico da Linguagem
+### Básico da Linguagem
 Sintaxe:
+
 Um script Python pode ser escrito no shell interativo Python ou no editor de código. O arquivo terá a extensão .py.
 
-Indentação:
+#### Indentação:
+
 Indentação é um espaço em branco em um texto. Algumas linguagens usam para aumentar a legibilidade, o Python usa indentação para criar blocos de código. Assim, um dos erros ao escrever código Python é não usar identação corretamente.
 
-Comentários:
+#### Comentários:
+
 Os comentários tem uma função importante para melhorar a legibilidade e permitir que os desenvolvedores deixem informações no código. No Python, qualquer trecho que inicia com #, não é executado e é interpretado como um comentário.
 
 Exemplos de Comentários por linha
--# Este é o um comentário
--# Este é o segundo comentário
+- # Este é o um comentário
+- # Este é o segundo comentário
 
-Comentário de várias linhas
+#### Comentário de várias linhas
 
 Use aspas triplas entre a parte que é comentário, no inicio e fim:
 
