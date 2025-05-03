@@ -273,6 +273,13 @@ Agora você verá atalhos para criar arquivos e pastas dentro do diretório do p
 
 Pronto, você já poderá usar Python e criar projetos, o ambiente está preparado🚀
 
+Tente criar um novo arquivo chamado: helloword.py com o código:
+```bash
+Print("Hello World")
+
+---
+
+
 ## 11. Recursos Adicionais
 
 - [Documentação oficial do Python](https://docs.python.org/pt-br/3/)  
