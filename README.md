@@ -278,7 +278,7 @@ Tente criar um novo arquivo chamado: helloword.py com o código:
 Print("Hello World")
 
 ---
-
+```
 
 ## 11. Recursos Adicionais
 
