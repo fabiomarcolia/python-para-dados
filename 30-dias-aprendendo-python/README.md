@@ -93,6 +93,7 @@ Use os seguintes passos para começar:
 - Estude o código
 - Rode o script no VSCode Web ou localmente
 - Faça pequenas alterações e crie exemplos próprios
+- [Guia para auxiliar a praticar esse Conteúdo](https://topmate.io/fabiomarcolia/1521708?utm_source=public_profile&utm_campaign=fabiomarcolia)
 
 ---
 
@@ -102,6 +103,7 @@ Use os seguintes passos para começar:
 - [Documentação Pandas](https://pandas.pydata.org/docs/)
 - [Documentação PyMongo](https://pymongo.readthedocs.io/)
 - [Documentação BigQuery Python Client](https://cloud.google.com/python/docs/reference/bigquery/latest)
+
 
 ---
 
