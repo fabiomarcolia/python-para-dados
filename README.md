@@ -261,15 +261,15 @@ git push -u origin main
 ## 10. Começando a usar o VSCode
 
 Abra o VSCode. Ao abri-lo, você verá a interface abaixo:
-![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project1.png.png) 
+![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project1.png) 
 
 
 Crie uma pasta chamada AprenderPython30dias na área de trabalho, assim poderá abrir e adicionar ela no VSCode:
-![1](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png.png)
+![1](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png)
 
 
 Agora você verá atalhos para criar arquivos e pastas dentro do diretório do projeto. Veja o exemplo abaixo:
-![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project3.png.png)
+![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project3.png)
 
 Pronto, você já poderá usar Python e criar projetos, o ambiente está preparado🚀
 
