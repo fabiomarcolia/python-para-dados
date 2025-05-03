@@ -67,7 +67,7 @@ Depois é só terminar novamente com aspas triplas
 """
 ```
 
-Vamos começar montrar o ambiente🚀
+Vamos começar montar o ambiente🚀
 
 ---
 
