@@ -50,18 +50,22 @@ Indentação é um espaço em branco em um texto. Algumas linguagens usam para a
 Os comentários tem uma função importante para melhorar a legibilidade e permitir que os desenvolvedores deixem informações no código. No Python, qualquer trecho que inicia com #, não é executado e é interpretado como um comentário.
 
 Exemplos de Comentários por linha
-- # Este é o um comentário
-- # Este é o segundo comentário
+```bash
+# Esse é um comentário
+# Esse é outro comentário
+```
 
 #### Comentário de várias linhas
 
 Use aspas triplas entre a parte que é comentário, no inicio e fim:
 
--"""
--Aqui começa a parte comentada.
--Pode ser várias linhas a seguir.
--Depois é só terminar novamente com aspas triplas
--"""
+```bash
+"""
+Aqui começa a parte comentada.
+Pode ser várias linhas a seguir.
+Depois é só terminar novamente com aspas triplas
+"""
+```
 
 Vamos começar montrar o ambiente🚀
 
