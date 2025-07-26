@@ -291,12 +291,12 @@ Print("Hello World")
 
 Feito com 🩵 para amantes do Python.
 
-## 🔗 Fale Comigo
+### 🔗 Fale Comigo
 
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
 
 
-## Autor
+### Autor
 
 - [Fabio Marçolia](https://github.com/fabiomarcolia)
 
