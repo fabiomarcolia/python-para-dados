@@ -295,12 +295,6 @@ Feito com 🩵 para amantes do Python.
 
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
 
-[![Mais Recursos](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/topmate.png)](https://topmate.io/fabiomarcolia)
-
-
-
-
-
 
 ## Autor
 
