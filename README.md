@@ -282,6 +282,7 @@ Print("Hello World")
 
 ## 11. Recursos Adicionais
 
+- [Guia de Aprendizagam passo-a-passo](topmate.io/fabiomarcolia/1483482)
 - [Documentação oficial do Python](https://docs.python.org/pt-br/3/)  
 - [Guia oficial do VSCode para Python](https://code.visualstudio.com/docs/python/python-tutorial)  
 - [Documentação do Git](https://git-scm.com/doc)  
