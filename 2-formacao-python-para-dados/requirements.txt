@@ -1,0 +1,15 @@
+# Base
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+polars
+duckdb
+sqlalchemy
+pyarrow
+scikit-learn
+
+# Notebooks
+jupyterlab
+ipykernel
