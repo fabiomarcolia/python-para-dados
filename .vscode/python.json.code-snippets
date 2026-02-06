@@ -1,0 +1,176 @@
+{
+  // 1. Importação de bibliotecas para Análise de Dados
+  "Importando bibliotecas de análise de dados": {
+    "prefix": "import_data_libs",
+    "body": [
+      "import pandas as pd",
+      "import numpy as np",
+      "import matplotlib.pyplot as plt",
+      "import seaborn as sns",
+      "",
+      "plt.style.use('ggplot')"
+    ],
+    "description": "Importação das bibliotecas para análise de dados"
+  },
+
+  // 2. Criar um DataFrame de exemplo
+  "Criar um DataFrame de exemplo": {
+    "prefix": "create_dataframe",
+    "body": [
+      "import pandas as pd",
+      "",
+      "data = {",
+      "    'Nome': ['Ana', 'Bruno', 'Carlos'],",
+      "    'Idade': [25, 30, 22],",
+      "    'Salario': [3500, 4200, 3900]",
+      "}",
+      "",
+      "df = pd.DataFrame(data)",
+      "display(df)"
+    ],
+    "description": "Cria um DataFrame de exemplo com Pandas"
+  },
+
+  // 3. Carregar um arquivo CSV
+  "Carregar CSV com Pandas": {
+    "prefix": "read_csv",
+    "body": [
+      "import pandas as pd",
+      "",
+      "df = pd.read_csv('${1:caminho_do_arquivo.csv}')",
+      "display(df.head())"
+    ],
+    "description": "Carrega um arquivo CSV e exibe as primeiras 5 linhas"
+  },
+
+  // 4. Tratar valores nulos
+  "Tratar valores nulos em um DataFrame": {
+    "prefix": "handle_missing",
+    "body": [
+      "# Preencher valores nulos com a média",
+      "df['${1:coluna}'].fillna(df['${1:coluna}'].mean(), inplace=True)",
+      "",
+      "# Remover linhas com valores nulos",
+      "df.dropna(inplace=True)"
+    ],
+    "description": "Preenche valores nulos com a média ou remove linhas com NaN"
+  },
+
+  // 5. Filtrar dados com Pandas
+  "Filtrar DataFrame com Pandas": {
+    "prefix": "filter_df",
+    "body": [
+      "df_filtrado = df[df['${1:coluna}'] ${2:>} ${3:valor}]",
+      "display(df_filtrado)"
+    ],
+    "description": "Filtra um DataFrame baseado em uma condição"
+  },
+
+  // 6. Agrupar dados com Pandas
+  "Agrupar e calcular média com Pandas": {
+    "prefix": "groupby_mean",
+    "body": [
+      "df_grouped = df.groupby('${1:coluna}')['${2:coluna_numérica}'].mean()",
+      "display(df_grouped)"
+    ],
+    "description": "Agrupa um DataFrame por uma coluna e calcula a média de outra"
+  },
+
+  // 7. Criar um gráfico de barras com Matplotlib
+  "Criar gráfico de barras": {
+    "prefix": "bar_plot",
+    "body": [
+      "import matplotlib.pyplot as plt",
+      "",
+      "df['${1:coluna}'].value_counts().plot(kind='bar', figsize=(10,6))",
+      "plt.title('${2:Título do Gráfico}')",
+      "plt.xlabel('${3:Eixo X}')",
+      "plt.ylabel('${4:Eixo Y}')",
+      "plt.show()"
+    ],
+    "description": "Cria um gráfico de barras com Matplotlib"
+  },
+
+  // 8. Criar um gráfico de dispersão com Seaborn
+  "Criar gráfico de dispersão com Seaborn": {
+    "prefix": "scatter_plot",
+    "body": [
+      "import seaborn as sns",
+      "import matplotlib.pyplot as plt",
+      "",
+      "plt.figure(figsize=(10,6))",
+      "sns.scatterplot(x=df['${1:coluna_x}'], y=df['${2:coluna_y}'], hue=df['${3:categoria}'])",
+      "plt.title('${4:Título do Gráfico}')",
+      "plt.show()"
+    ],
+    "description": "Cria um gráfico de dispersão com Seaborn"
+  },
+
+  // 9. Criar um histograma
+  "Criar um histograma": {
+    "prefix": "hist_plot",
+    "body": [
+      "import matplotlib.pyplot as plt",
+      "",
+      "plt.figure(figsize=(10,6))",
+      "df['${1:coluna}'].hist(bins=${2:30})",
+      "plt.title('${3:Título do Gráfico}')",
+      "plt.xlabel('${4:Eixo X}')",
+      "plt.ylabel('${5:Eixo Y}')",
+      "plt.show()"
+    ],
+    "description": "Cria um histograma com Matplotlib"
+  },
+
+  // 10. Criar uma matriz de correlação
+  "Criar matriz de correlação com Seaborn": {
+    "prefix": "correlation_matrix",
+    "body": [
+      "import seaborn as sns",
+      "import matplotlib.pyplot as plt",
+      "",
+      "plt.figure(figsize=(10,6))",
+      "sns.heatmap(df.corr(), annot=True, cmap='coolwarm')",
+      "plt.title('Matriz de Correlação')",
+      "plt.show()"
+    ],
+    "description": "Cria uma matriz de correlação com Seaborn"
+  },
+
+  // 11. Exportar DataFrame para CSV
+  "Exportar DataFrame para CSV": {
+    "prefix": "export_csv",
+    "body": [
+      "df.to_csv('${1:saida.csv}', index=False)",
+      "print('Arquivo salvo como ${1:saida.csv}')"
+    ],
+    "description": "Exporta um DataFrame para um arquivo CSV"
+  },
+
+  // 12. Criar um modelo de Machine Learning simples
+  "Criar modelo de Machine Learning com scikit-learn": {
+    "prefix": "ml_model",
+    "body": [
+      "from sklearn.model_selection import train_test_split",
+      "from sklearn.linear_model import LinearRegression",
+      "from sklearn.metrics import mean_absolute_error",
+      "",
+      "# Separando os dados",
+      "X = df[['${1:variavel_independente}']]",
+      "y = df['${2:variavel_dependente}']",
+      "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)",
+      "",
+      "# Criando o modelo",
+      "modelo = LinearRegression()",
+      "modelo.fit(X_train, y_train)",
+      "",
+      "# Fazendo previsões",
+      "y_pred = modelo.predict(X_test)",
+      "",
+      "# Avaliação",
+      "erro = mean_absolute_error(y_test, y_pred)",
+      "print(f'Mean Absolute Error: {erro}')"
+    ],
+    "description": "Cria um modelo de Machine Learning simples usando LinearRegression"
+  }
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Env
+.venv/
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (não versionar saídas)
+dados/source/
+dados/raw/
+dados/processed/
+dados/output/
+!dados/**/.gitkeep
+
+# VS Code
+.vscode/.cache/

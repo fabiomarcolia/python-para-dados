@@ -1,303 +1,165 @@
-# ✅Configurando Python no VSCode + GitHub
+# Python para Dados | Básico ao Avançado com Mini-Projetos para Portifólio
 
-Este repositório tem como objetivo ajudar iniciantes a configurarem um ambiente completo de desenvolvimento Python com o Visual Studio Code (VSCode), incluindo ambiente virtual, instalação de pacotes e integração com GitHub.
-
-## Índice
-
-1. [Introdução](#1-Introdução)  
-2. [Instalação do Python](#2-instalação-do-python)  
-3. [Instalação do VSCode](#3-instalação-do-vscode)  
-4. [Configuração do VSCode para Python](#4-configuração-do-vscode-para-python)  
-5. [Criação do Ambiente Virtual](#5-criação-do-ambiente-virtual)  
-6. [Instalação de Pacotes Essenciais](#6-instalação-de-pacotes-essenciais)  
-7. [Execução e Depuração de Código](#7-execução-e-depuração-de-código)  
-8. [Instalação e Configuração do Git](#8-instalação-e-configuração-do-git)  
-9. [Integração com GitHub](#9-integração-com-github)  
-10. [Recursos Adicionais](#10-recursos-adicionais)
-
----
-
-## 1. Introdução
-
-Python é uma linguagem de programação de alto nível para programação de propósito geral.
-
-O nome da linguagem de programação Python deriva de uma série de comédia britânica, Monty Python's Flying Circus. A primeira versão foi lançada em 20 de fevereiro de 1991. 
-
-Este repositório ajudará você a aprender Python, principalemnte para o focando na de dados. 
-
-### 💬Por que aprender Python
-
-É uma linguagem de programação muito próxima da linguagem humana e, por isso, fácil de aprender e usar. 
-
-Python é usado por diversos setores e empresas (incluindo o Ele tem sido usado para desenvolver aplicativos web, aplicativos desktop, administração de sistemas e bibliotecas de aprendizado de máquina. 
-
-Python é uma linguagem altamente aceita na comunidade de ciência, análise, engenharia de dados.
-
-Espero que isso seja suficiente para convencê-lo a começar a aprender Python. Python está dominando o mundo, agora com IA!
+Repositório **do básico ao avançado** para quem já sabe Python ([Aqui para aprender do zero](aprendendo-python-em-30-dias/README.md)) e quer aplicar em **dados** — com trilha **linear**, trilhas por objetivo e **entregáveis de portfólio** (notebook por módulo).
 
 
-### Básico da Linguagem
-Sintaxe:
 
-Um script Python pode ser escrito no shell interativo Python ou no editor de código. O arquivo terá a extensão .py.
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
+![Pandas](https://img.shields.io/badge/pandas-ready-informational)
 
-#### Indentação:
+![GitHub stars](https://img.shields.io/github/stars/fabiomarcolia/python-para-dados?style=social)
+![Last commit](https://img.shields.io/github/last-commit/fabiomarcolia/python-para-dados)
 
-Indentação é um espaço em branco em um texto. Algumas linguagens usam para aumentar a legibilidade, o Python usa indentação para criar blocos de código. Assim, um dos erros ao escrever código Python é não usar identação corretamente.
+### 🚨 Atenção: se ainda não tiver o ambiente VSCode com Python configurado, dê uma olhada aqui👇
+- [Configurando ambiente: VSCode com Python + Github](vscode_python_github.md)
 
-#### Comentários:
-
-Os comentários tem uma função importante para melhorar a legibilidade e permitir que os desenvolvedores deixem informações no código. No Python, qualquer trecho que inicia com #, não é executado e é interpretado como um comentário.
-
-Exemplos de Comentários por linha
-```bash
-# Esse é um comentário
-# Esse é outro comentário
-```
-
-#### Comentário de várias linhas
-
-Use aspas triplas entre a parte que é comentário, no inicio e fim:
-
-```bash
-"""
-Aqui começa a parte comentada.
-Pode ser várias linhas a seguir.
-Depois é só terminar novamente com aspas triplas
-"""
-```
-
-Vamos começar montar o ambiente🚀
-
----
-
-## 2. Instalação do Python
-
-- Acesse: https://www.python.org/downloads 
-![Site](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/python_download.png) 
-- Baixe a versão mais recente  
-- Marque a opção **"Add Python to PATH"**  
-- Verifique no terminal:
-
-```bash
-python --version
-```
-
----
-
-## 3. Instalação do VSCode
-
-- Acesse: https://code.visualstudio.com/  
-- Baixe e instale o VSCode no seu sistema operacional  
-- Após a instalação, abra o VSCode normalmente
-![VSCode](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_open.png) 
-
----
-
-## 4. Configuração do VSCode para Python
-
-
-- No VSCode, vá até a aba de extensões (ícone de quadrado no menu lateral ou `Ctrl+Shift+X`)  
-- Busque por **Python** (desenvolvido pela Microsoft) e clique em instalar  
-![Install Python](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_python_install.png) 
-- Após instalar, pressione `Ctrl+Shift+P`, digite `Python: Select Interpreter` e selecione o interpretador desejado
-
-### Instalando Extensões úteis e essenciais
-
-No VS Code, as extensões são ferramentas adicionais que expandem as funcionalidades do editor, permitindo que você personalize o ambiente de desenvolvimento e adicione recursos como suporte a linguagens específicas, formatadores de código, temas e muito mais. Elas são como plugins que se "encaixam" ao programa principal, tornando o VS Code mais versátil e adaptado às suas necessidades. 
-
-Como as extensões funcionam:
-
-- Adicionam recursos
-- Personalizam o ambiente:
-- Simplificam o trabalho:
-- Estão disponíveis no Marketplace:
-- Temas: Extensões que mudam o visual do VS Code, com diferentes cores, fontes e estilos. 
-- Extensões que adicionam recursos como visualização de conteúdo de portais (Power Apps), lembretes no código (Bookmarks) e muito mais.
-
-### Extensões Recomendadas
-  Acesse a aba de extensões no VSCode (Ctrl + Shift + X).
-    
-- Python (Microsoft): Suporte a Python, Jupyter e IntelliSense.
+## O que você vai aprender aqui
+- EDA completa (limpeza, joins, agregações, narrativa e evidências)
+- Visualização: matplotlib, seaborn e plotly
+- Performance: polars + pyarrow/parquet
+- Consulta local com duckdb (sem “ensinar SQL” como trilha principal)
+- ML baseline com scikit-learn (pipeline + métricas)
   
-- Jupyter: Permite executar notebooks .ipynb no VSCode.
 
-- Pylance: Melhor análise de código e autocomplete.
+## Roteiro de estudo (como aprender na ordem)
 
-- GitLens: Facilita o trabalho com GitHub.
+A lógica aqui é: 
+- **praticar** → [Notebooks](notebooks)  
+- **reforçar** → [Scripts](scripts) 
+- **finalizar** → [Mini-Projeto](projetos) 
+- **publicar** → [Potifólio](portifolio.md)
 
-- Code Runner: Executa códigos diretamente no terminal.
+  - [Roadmap dessa mentoria Python para Dados](ROADMAP.md)
 
-- Prettier: Para formatar código.
+### Passo a passo por módulo (repetir do 1 ao 9)
+1- **Aula (Notebook)**  
+   Vá em [notebooks](notebooks) e pratique cada um até se familiarizar completamente (aproximadamente ficará em cada um entre 15 a 30 min cada).
 
-- Material Icon Theme: Melhora os ícones de arquivos.
+2- **Reforço (Script)**  
+   Rode a versão comentada em [scripts](scripts) para fixar sem depender de notebook.
+
+3- **Entregável (Portfólio)**  
+   Abra [Entregável Portifólio](projetos/1_setup/1_entregavel_portfolio.ipynb) e execute até o fim.  
+   Ele gera evidências dentro do próprio módulo:
+   - `projetos/<módulo>/assets/` (imagens/HTML)
+   - `projetos/<módulo>/reports/` (Markdown/JSON)
+   - `projetos/<módulo>/outputs/` (parquet/modelos)
+
+4- **Publicação (GitHub)**  
+   Faça commit das evidências e atualize o README do mini-projeto com 2–3 bullets:
+   - o que você fez
+   - 1–2 insights
+   - onde está a evidência (imagem/relatório)
+
+### Frequência sugerida (semana a semana)
+- **Modo acelerado (2 semanas):** 1 módulo por dia útil + revisão no fim de semana
+- **Modo sustentável (4–6 semanas):** 2 módulos por semana + 1 dia só para o entregável
+- **Modo portfólio (8 semanas):** 1 módulo por semana, caprichando nos assets e no texto do README
+
+### Sugestão para aprender de verdade
+- Se travar, **não pule**: finalize o entregável com o dataset .  
+- Depois, repita usando outro dataset.
+
+  - [Bases para Treino](dados/bases_treino)
 
 
----
+## Conteúdo
+- [Setup do ambiente](#começo-rápido)
+- [Roteiro de estudo](#roteiro-de-estudo-como-aprender-na-ordem)
+- [Estrutura do repositório](#estrutura-do-repositório)
+- [Roadmap linear](#roadmap-linear)
+- [Trilhas](#trilhas)
+- [Progress tracker](#progress-tracker)
+- [Portfólio](#portfólio)
+- [Datasets](#datasets)
+- [Social Preview](#social-preview)
+- [Créditos e contato](#créditos-e-contato)
 
-## 5. Criação do Ambiente Virtual
-
-Abra o terminal integrado (Ctrl + ') e execute:
-
+## Começo rápido
+1- Clone o repositório:
 ```bash
-mkdir meu-projeto
-cd meu-projeto
-python -m venv venv
+git clone https://github.com/fabiomarcolia/python-para-dados.git
+cd python-para-dados
 ```
 
-Ative o ambiente virtual:
-
+2- Crie e ative o ambiente virtual:
 ```bash
-# Windows
-.\venv\Scripts\activate
-
-# macOS/Linux
-source venv/bin/activate
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# Linux/Mac:
+source .venv/bin/activate
 ```
 
-
-
-Ambientes virtuais em Python são pastas que contêm uma cópia isolada do interpretador Python e de suas bibliotecas, permitindo que projetos diferentes utilizem versões distintas de pacotes sem conflitos. 
-
-Eles são usados para isolar projetos e garantir que as dependências de um projeto não afetem as de outro, permitindo:
-
--Isolamento:
-Cada ambiente virtual tem seu próprio conjunto de bibliotecas, independentemente do restante do sistema Python. 
-
-Versões de Pacotes:
-Permite que um projeto use uma versão específica de um pacote sem conflitos com outros projetos que usam versões diferentes. 
-
--Gerenciamento de Dependências:
-Facilita o gerenciamento de dependências de um projeto, garantindo que ele funcione corretamente com as bibliotecas necessárias. 
-Criação:
-São criados usando o comando venv ou virtualenv. 
-
-Como funcionam:
-
-1-Criação do Ambiente:
-Um ambiente virtual é criado em uma pasta específica do seu projeto, contendo uma cópia do interpretador Python e um sistema de gerenciamento de pacotes (como pip). 
-
-2-Ativação:
-Para usar um ambiente virtual, você precisa ativá-lo, geralmente executando um script de ativação (como activate no Windows ou source activate no Linux/macOS). 
-
-3-Instalação de Pacotes:
-Após ativar o ambiente, você pode instalar pacotes usando pip como de costume, mas esses pacotes serão instalados apenas nesse ambiente virtual específico. 
-
-4-Desativação:
-Para voltar a usar o ambiente Python global, você desativa o ambiente virtual, geralmente executando um comando como deactivate. 
-
-Por que usar:
-Evitar Conflitos: Permite que projetos usem versões diferentes de pacotes sem conflitos. 
-
-Reproducibilidade: Garante que seu projeto funcione consistentemente em diferentes ambientes. 
-
-Organização: Facilita a organização de projetos e a gestão de dependências. 
-
-Ferramentas:
-venv:
-Um módulo padrão do Python para criar ambientes virtuais, especialmente recomendado para versões mais recentes do Python (3.3 e posteriores).
-virtualenv:
-Uma ferramenta popular para criar ambientes virtuais, compatível com versões mais antigas do Python. 
-
----
-
-## 6. Instalação de Pacotes Essenciais
-
-Com o ambiente ativado, no terminal:
-
+3- Instale dependências:
 ```bash
-pip install pandas numpy matplotlib jupyter
+pip install -r requirements.txt
 ```
 
-Para salvar os pacotes instalados:
+4- Abra no VS Code e rode os notebooks:
+- `notebooks/` (aulas)
+- `projetos/<módulo>/01_entregavel_portfolio.ipynb` (entregável de portfólio)
 
+## Estrutura do repositório
+- `1_setup/` a `9_machine_learning/` (linha do Zero ao avançado)
+- `notebooks/` aulas com explicação + prática (15–30 min)
+- `scripts/` versões `.py` comentadas (para rodar sem notebook)
+- `projetos/` mini-projetos por módulo + entregáveis de portfólio
+- `templates/` checklist e templates (EDA e README)
+- `dados/`
+  - `sample/` dataset pequeno (sempre roda)
+  - `source/` datasets reais (opcional)
+
+## Roadmap
+Veja a sequência completa em: [`ROADMAP.md`](./ROADMAP.md)
+
+## Trilhas
+- **Trilha EDA**: pandas → visualização → EDA avançado
+- **Trilha Performance**: polars → pyarrow/parquet → EDA avançado
+- **Trilha ML**: EDA avançado → scikit-learn (baseline)
+
+## Acompanhar Progresso
+Use o índice de portfólio para acompanhar entregáveis por módulo:
+- [`portifolio.md`](./portifolio.md)
+
+## Portfólio
+O repo foi pensado para você gerar evidências “publicáveis” no GitHub:
+
+- Cada módulo tem um notebook entregável:
+  - `projetos/<módulo>/01_entregavel_portfolio.ipynb`
+- Evidências geradas ficam em:
+  - `projetos/<módulo>/assets/` (imagens/HTML)
+  - `projetos/<módulo>/reports/` (Markdown/JSON)
+  - `projetos/<módulo>/outputs/` (parquet/modelos)
+
+Dica: use o projeto final (pasta `projetos/10_projeto_final_end_to_end/`) como peça principal e os mini-projetos como evidência incremental.
+
+## Datasets
+Dataset real sugerido (opcional) via submodule:
 ```bash
-pip freeze > requirements.txt
+git submodule add https://github.com/fabiomarcolia/bases-dados-analytics-powerbi-ml dados/source/bases-dados-analytics-powerbi-ml
 ```
 
+Se você não adicionar o submodule, tudo roda com os arquivos em `dados/bases_treino/`.
 
----
+## Dicas para deixar seu GitHub mais profissional
 
-## 7. Execução e Depuração de Código
+- Use os [projetos](projetos) aqui como referência.
+- Use o [modelo de estrutura](recursos_templates_python/modelo-estrutura-novo-projeto) para criar projetos para seu portifólio.
+- Coloque uma imagem para o repositório > Settings → Social preview '(imagem 1280×640)
+- Crie sua apresentação com um [README](https://docs.github.com/pt/account-and-profile/how-tos/profile-customization/managing-your-profile-readme) do seu perfil 
 
-- Crie um arquivo `main.py`  
-- Escreva seu código Python  
-- Para executar, pressione `Ctrl+F5`  
-- Para debugar, pressione `F5`
+## Conclusão
 
----
+Este repositório serve como uma mentoria guiada para aprender Python para dados. Seu aprendizado pode abrir uma janela de oportunidades, atualmente python é usa em várias funções e tecnologia: IA, Data Engineer, Data Analytics, Data Science entre outras.
 
-## 8. Instalação e Configuração do Git
+## Autor - Fabio Marçolia | Carreira em Dados & IA
 
-- Baixe e instale o Git: https://git-scm.com/downloads  
-- Configure seu nome e e-mail no terminal:
+Para mais conteúdo de Python, Carreira em Dados e IA, ou se quiser falar comigo sobre dúvidas, sugestões ou feedback:
 
-```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seu@email.com"
-```
+- Linkedin: [Vamos nos conectar e me envie uma mensagem🤝](http://linkedin.com/in/fabiomarcolia)
+- Mais Recursos de Carreira: [Veja aqui](https://topmate.io/fabiomarcolia)
 
----
-
-## 9. Integração com GitHub
-
-Inicie o repositório Git:
-
-```bash
-git init
-git add .
-git commit -m "Primeiro commit"
-```
-
-Conecte ao repositório remoto no GitHub:
-
-```bash
-git remote add origin https://github.com/seuusuario/nomedorepositorio.git
-git push -u origin main
-```
-
----
-
-## 10. Começando a usar o VSCode
-
-Abra o VSCode. Ao abri-lo, você verá a interface abaixo:
-![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project1.png) 
-
-
-Crie uma pasta chamada AprenderPython30dias na área de trabalho, assim poderá abrir e adicionar ela no VSCode:
-![1](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project2.png)
-
-
-Agora você verá atalhos para criar arquivos e pastas dentro do diretório do projeto. Veja o exemplo abaixo:
-![](https://github.com/fabiomarcolia/python-para-dados/blob/main/img/vscode_project3.png)
-
-Pronto, você já poderá usar Python e criar projetos, o ambiente está preparado🚀
-
-Tente criar um novo arquivo chamado: helloword.py com o código:
-```bash
-Print("Hello World")
-
----
-```
-
-## 11. Recursos Adicionais
-
-- [Guia de Aprendizagam passo-a-passo](topmate.io/fabiomarcolia/1483482)
-- [Documentação oficial do Python](https://docs.python.org/pt-br/3/)  
-- [Guia oficial do VSCode para Python](https://code.visualstudio.com/docs/python/python-tutorial)  
-- [Documentação do Git](https://git-scm.com/doc)  
-- [Guia GitHub para iniciantes](https://docs.github.com/pt/get-started)
-
----
-
-Feito com 🩵 para amantes do Python.
-
-### 🔗 Fale Comigo
-
-[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/fabiomarcolia/)
-
-
-### Autor
-
-- [Fabio Marçolia](https://github.com/fabiomarcolia)
-
+Agradeço seu apoio e fique a vontade de entrar em contato comigo!
