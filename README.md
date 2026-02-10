@@ -74,8 +74,7 @@ A lógica aqui é:
 - [Progress tracker](#progress-tracker)
 - [Portfólio](#portfólio)
 - [Datasets](#datasets)
-- [Social Preview](#social-preview)
-- [Créditos e contato](#créditos-e-contato)
+- [Dicas para seu Git](#dicas-para-deixar-seu-github-mais-profissional)
 
 ## Começo rápido
 1- Clone o repositório:
